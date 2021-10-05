@@ -1,0 +1,231 @@
+/*======================================
+colors:
+color
+=========================================*/
+/*======================================
+HTML,BODY
+=========================================*/
+html,body{
+    height: 100%;
+}
+body{
+    color: #6c7e86;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+    background: #fff;
+    overflow: hidden;
+    /*font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 8px;*/
+}
+.btn-general{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-radius: 28px; 
+   font-size: 16px;
+   text-transform: uppercase;
+   margin: 0 8px;
+   padding: 12px 46px;
+   transition: all .5s;
+}
+
+#Preloader{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: 9999 ;
+}
+#Preloader_status{
+    background-image: url("../images/Preloader/1494.gif ");
+    background-repeat:no-repeat;
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+
+}
+#home{
+    background: none;
+    height: 100%;
+
+}
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: -2;
+    background-image: url("../images/videos/poster.jpg") no-repeat;
+    background-size: cover;
+}
+#home-overlay{
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#home-content{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#home-content-inner{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#home-heading h1{
+    color:#fff;
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+#home-heading h1 span{
+    color: #ffae2c;
+    font-weight: 500;
+}
+#home-text p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 8px o 30px 0;
+}
+.btn-home{
+color: #fff;
+border: 1px solid #fff;
+}
+.btn-home:hover{
+    color:#fff;
+    background-color: #ffae2c;
+    border: 1px solid #ffae2c;
+}
+.btn-home:focus{
+    color:#fff;
+    background-color: #ffae2c;
+    border: 1px solid #ffae2c;
+}
+#arrow-down{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-left: -16px;
+    z-index: 1;
+}
+#arrow-down:hover,#arrow-down:focus{
+    color:#ffae2c;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+/*===================================
+              About Us
+=====================================*/
+.content-box-lg{
+    padding: 100px 0;
+}
+.content-box-lg,.content-box-md{
+    padding: 100px 0;
+}
+.vertical-heading{
+    margin-top: -20px;
+}
+.vertical-heading h5{
+  color: #ffae2e;
+  font-size: 16px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  transform:rotate(-90deg) ;
+  position: relative;
+  top:60px;
+  left:-60px;
+}
+.vertical-heading h2{
+    margin-left: 30px;
+    font-size: 44px;
+    font-weight: 200;
+}
+#about-right{
+    font-size: 18px;
+}
+#about-right:hover{
+ cursor: pointer;
+ font-size: 40px;
+}
+#about-bottom{
+    margin-top: 50px;
+}
+#about-bottom img{
+    margin:0 auto;
+}
+img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+#about-02{
+   background-color: #e4e6e3; 
+}
+.about-item{
+background-color: #fff;
+padding:55px 30px ;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+margin: 10px;
+}
+.about-item span{
+    font-size: 44px;
+    display: inline-block;
+}
+.about-item h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 200px;
+    height: 3px;
+    background-color: #fda413;
+    border: none;   
+    margin: 0 auto;
+}
+.about-item p{
+    margin-top: 20px;
+}
+.about-item:hover{
+    background-color: #fda413;
+    color: #fff;
+    cursor: pointer;
+}
+.videos{
+    padding: 0;
+    margin-top: -2vw;
+}

@@ -1,0 +1,13 @@
+$(window).on('load',function(){
+$('#Preloader_status').fadeOut();
+$('#Preloader').delay(350).fadeOut('slow');
+})
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:1,
+        autoplay:true,
+        smartSpeed:750,
+        loop:true,
+        autoplayHoverPause:true,
+    });
+  });
